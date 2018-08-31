@@ -1,0 +1,2029 @@
+  [1m[35m (8153.0ms)[0m  [1m[35mCREATE DATABASE "ps1_development" ENCODING = 'unicode'[0m
+  ↳ /root/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (7799.0ms)[0m  [1m[35mCREATE DATABASE "ps1_test" ENCODING = 'unicode'[0m
+  ↳ /root/.rbenv/versions/2.5.1/bin/rake:23
+Started GET "/" for 127.0.0.1 at 2018-08-31 04:17:39 +0700
+  
+ActionController::RoutingError (uninitialized constant Ps1Controller):
+  
+bootsnap (1.3.1) lib/bootsnap/load_path_cache/core_ext/active_support.rb:53:in `block in load_missing_constant'
+bootsnap (1.3.1) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.3.1) lib/bootsnap/load_path_cache/core_ext/active_support.rb:53:in `rescue in load_missing_constant'
+bootsnap (1.3.1) lib/bootsnap/load_path_cache/core_ext/active_support.rb:42:in `load_missing_constant'
+activesupport (5.2.1) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.1) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.1) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.1) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.1) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.1) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.1) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-08-31 04:17:58 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /root/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /root/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb (3.0ms)
+Completed 200 OK in 23ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-31 04:26:39 +0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 927ms (Views: 915.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-31 04:33:25 +0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-08-31 04:33:27 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-08-31 04:33:32 +0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 37ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-08-31 04:36:25 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/home" for 127.0.0.1 at 2018-08-31 04:38:06 +0700
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:2:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/home" for 127.0.0.1 at 2018-08-31 04:38:34 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/home/solution1" for 127.0.0.1 at 2018-08-31 04:38:45 +0700
+Processing by HomeController#solution1 as HTML
+  Rendering home/solution1.html.erb within layouts/application
+  Rendered home/solution1.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 187ms (Views: 186.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/solution1" for 127.0.0.1 at 2018-08-31 04:39:33 +0700
+Processing by HomeController#solution1 as HTML
+  Rendering home/solution1.html.erb within layouts/application
+  Rendered home/solution1.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 61ms (Views: 56.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/solution1" for 127.0.0.1 at 2018-08-31 04:40:38 +0700
+Processing by HomeController#solution1 as HTML
+  Rendering home/solution1.html.erb within layouts/application
+  Rendered home/solution1.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 36ms (Views: 33.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/solution1" for 127.0.0.1 at 2018-08-31 04:46:17 +0700
+Processing by HomeController#solution1 as HTML
+  Rendering home/solution1.html.erb within layouts/application
+  Rendered home/solution1.html.erb within layouts/application (6.9ms)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of nil into String):
+    3: 
+    4: <footer>
+    5:   <p> HTML link validator</p>
+    6:   <%= form_tag("/https://validator.w3.org/nu/?doc=http%3A%2F%2F/"+params[:q], method: "get") do %>
+    7:     <%= label_tag(:q, "Search for:") %>
+    8:     <%= text_field_tag(:q) %>
+    9:     <%= submit_tag("Search") %>
+  
+app/views/home/solution1.html.erb:6:in `+'
+app/views/home/solution1.html.erb:6:in `_app_views_home_solution__html_erb__2611645339103184418_70298213361340'
+Started GET "/home/solution1" for 127.0.0.1 at 2018-08-31 04:47:45 +0700
+Processing by HomeController#solution1 as HTML
+  Rendering home/solution1.html.erb within layouts/application
+  Rendered home/solution1.html.erb within layouts/application (4.6ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of nil into String):
+    3: 
+    4: <footer>
+    5:   <p> HTML link validator</p>
+    6:   <%= form_tag("/https://validator.w3.org/nu/?doc=http://web11.cs.ait.ac.th"+params[:q], method: "get") do %>
+    7:     <%= label_tag(:q, "Search for:") %>
+    8:     <%= text_field_tag(:q) %>
+    9:     <%= submit_tag("Search") %>
+  
+app/views/home/solution1.html.erb:6:in `+'
+app/views/home/solution1.html.erb:6:in `_app_views_home_solution__html_erb__2611645339103184418_70298215776420'
+Started GET "/home/solution1" for 127.0.0.1 at 2018-08-31 04:48:20 +0700
+Processing by HomeController#solution1 as HTML
+  Rendering home/solution1.html.erb within layouts/application
+  Rendered home/solution1.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 31ms (Views: 29.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/https://validator.w3.org/nu/?utf8=%E2%9C%93&q=&commit=Search" for 127.0.0.1 at 2018-08-31 04:48:25 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/https:/validator.w3.org/nu"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-08-31 04:49:08 +0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/solution1" for 127.0.0.1 at 2018-08-31 04:49:11 +0700
+Processing by HomeController#solution1 as HTML
+  Rendering home/solution1.html.erb within layouts/application
+  Rendered home/solution1.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 39ms (Views: 35.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/https://validator.w3.org/nu/?utf8=%E2%9C%93&q=&commit=Search" for 127.0.0.1 at 2018-08-31 04:49:15 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/https:/validator.w3.org/nu"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/https://validator.w3.org/nu/?utf8=%E2%9C%93&q=&commit=Search" for 127.0.0.1 at 2018-08-31 04:49:40 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/https:/validator.w3.org/nu"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/https://validator.w3.org/nu/?utf8=%E2%9C%93&q=&commit=Search" for 127.0.0.1 at 2018-08-31 04:51:52 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/https:/validator.w3.org/nu"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-08-31 14:28:14 +0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 593ms (Views: 571.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/solution1" for 127.0.0.1 at 2018-08-31 14:28:18 +0700
+Processing by HomeController#solution1 as HTML
+  Rendering home/solution1.html.erb within layouts/application
+  Rendered home/solution1.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 66ms (Views: 59.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/solution1" for 127.0.0.1 at 2018-08-31 14:30:24 +0700
+Processing by HomeController#solution1 as HTML
+  Rendering home/solution1.html.erb within layouts/application
+  Rendered home/solution1.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 82ms (Views: 76.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-31 14:30:32 +0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 72ms (Views: 63.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-31 14:56:43 +0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (50.0ms)
+Completed 200 OK in 378ms (Views: 371.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/CAIiEINU3tNlrwWUMat_TLsqrCMqGQgEKhAIACoHCAow77zbCjDiq8wBMNiCsgU" for 127.0.0.1 at 2018-08-31 14:57:00 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/articles/CAIiEINU3tNlrwWUMat_TLsqrCMqGQgEKhAIACoHCAow77zbCjDiq8wBMNiCsgU"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-08-31 14:57:05 +0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (20.5ms)
+Completed 200 OK in 71ms (Views: 68.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-31 15:02:25 +0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (67.1ms)
+Completed 200 OK in 135ms (Views: 125.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFZxYUdjU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US%3Aen" for 127.0.0.1 at 2018-08-31 15:02:33 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFZxYUdjU0FtVnVHZ0pWVXlnQVAB"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-08-31 15:02:39 +0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (26.4ms)
+Completed 200 OK in 78ms (Views: 75.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-31 15:26:26 +0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (27.5ms)
+Completed 200 OK in 387ms (Views: 380.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-31 15:56:15 +0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (38.6ms)
+Completed 200 OK in 338ms (Views: 334.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 15:56:28 +0700
+Processing by ParallelController#parallelrate as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - https://www.abokifx.com/):
+  
+app/controllers/parallel_controller.rb:4:in `initialize'
+app/controllers/parallel_controller.rb:4:in `open'
+app/controllers/parallel_controller.rb:4:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 15:57:01 +0700
+Processing by ParallelController#parallelrate as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - https://www.google.com/):
+  
+app/controllers/parallel_controller.rb:4:in `initialize'
+app/controllers/parallel_controller.rb:4:in `open'
+app/controllers/parallel_controller.rb:4:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 15:57:54 +0700
+Processing by ParallelController#parallelrate as HTML
+Completed 500 Internal Server Error in 471ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `css' for nil:NilClass):
+  
+app/controllers/parallel_controller.rb:8:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 15:59:05 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 2182ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bdcrate" for 127.0.0.1 at 2018-08-31 15:59:10 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/bdcrate"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 15:59:13 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 2539ms (Views: 86.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-31 16:00:56 +0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (53.2ms)
+Completed 200 OK in 101ms (Views: 96.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/CBMicWh0dHA6Ly93d3cuZm94bmV3cy5jb20vcG9saXRpY3MvMjAxOC8wOC8zMC9oaXN0b3J5LWF0LWNhcGl0b2wtcm90dW5kYS13aGVyZS1tY2NhaW5zLWNhc2tldC13aWxsLWxpZS1pbi1zdGF0ZS5odG1s0gG8AWh0dHBzOi8vd3d3LWZveG5ld3MtY29tLmNkbi5hbXBwcm9qZWN0Lm9yZy92L3d3dy5mb3huZXdzLmNvbS9wb2xpdGljcy8yMDE4LzA4LzMwL2hpc3RvcnktYXQtY2FwaXRvbC1yb3R1bmRhLXdoZXJlLW1jY2FpbnMtY2Fza2V0LXdpbGwtbGllLWluLXN0YXRlLmFtcC5odG1sP2FtcF9qc192PTAuMSN3ZWJ2aWV3PTEmY2FwPXN3aXBl" for 127.0.0.1 at 2018-08-31 16:01:00 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/articles/CBMicWh0dHA6Ly93d3cuZm94bmV3cy5jb20vcG9saXRpY3MvMjAxOC8wOC8zMC9oaXN0b3J5LWF0LWNhcGl0b2wtcm90dW5kYS13aGVyZS1tY2NhaW5zLWNhc2tldC13aWxsLWxpZS1pbi1zdGF0ZS5odG1s0gG8AWh0dHBzOi8vd3d3LWZveG5ld3MtY29tLmNkbi5hbXBwcm9qZWN0Lm9yZy92L3d3dy5mb3huZXdzLmNvbS9wb2xpdGljcy8yMDE4LzA4LzMwL2hpc3RvcnktYXQtY2FwaXRvbC1yb3R1bmRhLXdoZXJlLW1jY2FpbnMtY2Fza2V0LXdpbGwtbGllLWluLXN0YXRlLmFtcC5odG1sP2FtcF9qc192PTAuMSN3ZWJ2aWV3PTEmY2FwPXN3aXBl"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-08-31 16:01:39 +0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (57.9ms)
+Completed 200 OK in 121ms (Views: 113.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/CBMicWh0dHA6Ly93d3cuZm94bmV3cy5jb20vcG9saXRpY3MvMjAxOC8wOC8zMC9oaXN0b3J5LWF0LWNhcGl0b2wtcm90dW5kYS13aGVyZS1tY2NhaW5zLWNhc2tldC13aWxsLWxpZS1pbi1zdGF0ZS5odG1s0gG8AWh0dHBzOi8vd3d3LWZveG5ld3MtY29tLmNkbi5hbXBwcm9qZWN0Lm9yZy92L3d3dy5mb3huZXdzLmNvbS9wb2xpdGljcy8yMDE4LzA4LzMwL2hpc3RvcnktYXQtY2FwaXRvbC1yb3R1bmRhLXdoZXJlLW1jY2FpbnMtY2Fza2V0LXdpbGwtbGllLWluLXN0YXRlLmFtcC5odG1sP2FtcF9qc192PTAuMSN3ZWJ2aWV3PTEmY2FwPXN3aXBl" for 127.0.0.1 at 2018-08-31 16:59:58 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/articles/CBMicWh0dHA6Ly93d3cuZm94bmV3cy5jb20vcG9saXRpY3MvMjAxOC8wOC8zMC9oaXN0b3J5LWF0LWNhcGl0b2wtcm90dW5kYS13aGVyZS1tY2NhaW5zLWNhc2tldC13aWxsLWxpZS1pbi1zdGF0ZS5odG1s0gG8AWh0dHBzOi8vd3d3LWZveG5ld3MtY29tLmNkbi5hbXBwcm9qZWN0Lm9yZy92L3d3dy5mb3huZXdzLmNvbS9wb2xpdGljcy8yMDE4LzA4LzMwL2hpc3RvcnktYXQtY2FwaXRvbC1yb3R1bmRhLXdoZXJlLW1jY2FpbnMtY2Fza2V0LXdpbGwtbGllLWluLXN0YXRlLmFtcC5odG1sP2FtcF9qc192PTAuMSN3ZWJ2aWV3PTEmY2FwPXN3aXBl"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-08-31 17:04:08 +0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (50.2ms)
+Completed 200 OK in 401ms (Views: 297.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/solution1" for 127.0.0.1 at 2018-08-31 17:04:14 +0700
+Processing by HomeController#solution1 as HTML
+  Rendering home/solution1.html.erb within layouts/application
+  Rendered home/solution1.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 113ms (Views: 107.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-31 17:25:22 +0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (44.5ms)
+Completed 200 OK in 101ms (Views: 96.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 17:25:45 +0700
+Processing by ParallelController#parallelrate as HTML
+Completed 500 Internal Server Error in 4981ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `xpath' for nil:NilClass):
+  
+app/controllers/parallel_controller.rb:7:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 17:28:36 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (191.8ms)
+Completed 200 OK in 5103ms (Views: 236.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 17:30:13 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3918ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 17:31:21 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (115.3ms)
+Completed 200 OK in 3969ms (Views: 167.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 17:32:10 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (121.6ms)
+Completed 200 OK in 4000ms (Views: 159.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 17:32:26 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 4641ms (Views: 43.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 17:32:43 +0700
+Processing by ParallelController#parallelrate as HTML
+Completed 500 Internal Server Error in 4740ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1..2)):
+  
+app/controllers/parallel_controller.rb:10:in `[]'
+app/controllers/parallel_controller.rb:10:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 17:32:56 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3970ms (Views: 55.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 17:33:11 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4785ms (Views: 33.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/paralel" for 127.0.0.1 at 2018-08-31 17:41:50 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/paralel"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 17:41:54 +0700
+Processing by ParallelController#parallelrate as HTML
+Completed 500 Internal Server Error in 4637ms (ActiveRecord: 0.0ms)
+
+
+  
+Nokogiri::XML::XPath::SyntaxError (ERROR: Undefined namespace prefix: //c-wiz:title):
+  
+app/controllers/parallel_controller.rb:7:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 17:43:24 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 2971ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 19:48:43 +0700
+Processing by ParallelController#parallelrate as HTML
+Completed 500 Internal Server Error in 3979ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `rate' for #<ParallelController:0x00007f47180ae338>):
+  
+app/controllers/parallel_controller.rb:6:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 19:49:28 +0700
+Processing by ParallelController#parallelrate as HTML
+Completed 500 Internal Server Error in 2295ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `push=' for []:Array
+Did you mean?  push):
+  
+app/controllers/parallel_controller.rb:8:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 19:50:26 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3250ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 19:50:49 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3868ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 19:56:01 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3218ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 19:56:32 +0700
+Processing by ParallelController#parallelrate as HTML
+Completed 500 Internal Server Error in 3583ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `title' for #<Nokogiri::XML::NodeSet:0x00007f47252df730>):
+  
+app/controllers/parallel_controller.rb:10:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 19:57:23 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3091ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 19:57:43 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3104ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 19:58:04 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3347ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 19:58:35 +0700
+Processing by ParallelController#parallelrate as HTML
+Completed 500 Internal Server Error in 3044ms (ActiveRecord: 0.0ms)
+
+
+  
+Nokogiri::XML::XPath::SyntaxError (ERROR: Undefined namespace prefix: //c-wiz:div):
+  
+app/controllers/parallel_controller.rb:10:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:01:07 +0700
+Processing by ParallelController#parallelrate as HTML
+Completed 500 Internal Server Error in 3280ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `rate' for #<ParallelController:0x00007f4729716688>):
+  
+app/controllers/parallel_controller.rb:8:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:01:25 +0700
+Processing by ParallelController#parallelrate as HTML
+Completed 500 Internal Server Error in 3944ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `rate' for #<ParallelController:0x00007f4728ac3bd8>):
+  
+app/controllers/parallel_controller.rb:8:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:01:38 +0700
+Processing by ParallelController#parallelrate as HTML
+Completed 500 Internal Server Error in 2991ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/parallel_controller.rb:8:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:01:56 +0700
+Processing by ParallelController#parallelrate as HTML
+Completed 500 Internal Server Error in 3033ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/parallel_controller.rb:8:in `[]'
+app/controllers/parallel_controller.rb:8:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:03:57 +0700
+Processing by ParallelController#parallelrate as HTML
+Completed 500 Internal Server Error in 2425ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/parallel_controller.rb:8:in `[]'
+app/controllers/parallel_controller.rb:8:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:04:14 +0700
+Processing by ParallelController#parallelrate as HTML
+Completed 500 Internal Server Error in 3150ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `rate' for #<ParallelController:0x00007f4724b31dd0>):
+  
+app/controllers/parallel_controller.rb:21:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:04:29 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2332ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:05:58 +0700
+Processing by ParallelController#parallelrate as HTML
+Completed 500 Internal Server Error in 3206ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `c' for #<ParallelController:0x00007f4728916b50>):
+  
+app/controllers/parallel_controller.rb:13:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:06:18 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3856ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:06:52 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2263ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:08:12 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3727ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:08:54 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3985ms (Views: 27.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:13:27 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2321ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:16:36 +0700
+  
+SyntaxError (/mnt/g/WAE/ps1/app/controllers/parallel_controller.rb:18: syntax error, unexpected '(', expecting keyword_end
+...     @formattedrate = links[0]('a')["href"]
+...                              ^
+/mnt/g/WAE/ps1/app/controllers/parallel_controller.rb:18: syntax error, unexpected ')', expecting keyword_end
+... @formattedrate = links[0]('a')["href"]
+...                              ^
+/mnt/g/WAE/ps1/app/controllers/parallel_controller.rb:18: syntax error, unexpected ']', expecting keyword_end
+...tedrate = links[0]('a')["href"]
+...                              ^):
+  
+app/controllers/parallel_controller.rb:18: syntax error, unexpected '(', expecting keyword_end
+app/controllers/parallel_controller.rb:18: syntax error, unexpected ')', expecting keyword_end
+app/controllers/parallel_controller.rb:18: syntax error, unexpected ']', expecting keyword_end
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:17:49 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3849ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:19:41 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5528ms (Views: 33.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:32:22 +0700
+Processing by ParallelController#parallelrate as HTML
+Completed 500 Internal Server Error in 4056ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/parallel_controller.rb:15:in `[]'
+app/controllers/parallel_controller.rb:15:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:33:19 +0700
+  
+SyntaxError (/mnt/g/WAE/ps1/app/controllers/parallel_controller.rb:24: syntax error, unexpected tIDENTIFIER, expecting ']'
+...     render template: 'parallel/home'
+...                       ^~~~~~~~
+/mnt/g/WAE/ps1/app/controllers/parallel_controller.rb:24: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...ender template: 'parallel/home'
+...                              ^
+/mnt/g/WAE/ps1/app/controllers/parallel_controller.rb:26: unterminated string meets end of file
+/mnt/g/WAE/ps1/app/controllers/parallel_controller.rb:26: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/parallel_controller.rb:24: syntax error, unexpected tIDENTIFIER, expecting ']'
+app/controllers/parallel_controller.rb:24: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/controllers/parallel_controller.rb:26: unterminated string meets end of file
+app/controllers/parallel_controller.rb:26: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:33:50 +0700
+Processing by ParallelController#parallelrate as HTML
+Completed 500 Internal Server Error in 3134ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/parallel_controller.rb:15:in `[]'
+app/controllers/parallel_controller.rb:15:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:38:33 +0700
+Processing by ParallelController#parallelrate as HTML
+Completed 500 Internal Server Error in 2681ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `text' for nil:NilClass):
+  
+app/controllers/parallel_controller.rb:17:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:39:03 +0700
+Processing by ParallelController#parallelrate as HTML
+Completed 500 Internal Server Error in 3034ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `text' for nil:NilClass):
+  
+app/controllers/parallel_controller.rb:17:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:39:31 +0700
+Processing by ParallelController#parallelrate as HTML
+Completed 500 Internal Server Error in 3189ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `text' for nil:NilClass):
+  
+app/controllers/parallel_controller.rb:19:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:40:34 +0700
+Processing by ParallelController#parallelrate as HTML
+Completed 500 Internal Server Error in 2361ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `text' for nil:NilClass):
+  
+app/controllers/parallel_controller.rb:19:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:41:37 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3128ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:42:06 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3851ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:45:58 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3085ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:48:17 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2687ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:48:47 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2198ms (Views: 28.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:49:09 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3249ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:49:43 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2964ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:50:03 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3034ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:50:11 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3108ms (Views: 27.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:50:40 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3832ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:54:24 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 3113ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `link' for #<Nokogiri::XML::Element:0x00007f47244a48c8>
+Did you mean?  line):
+     8:    <% @item.each do |item|%>
+     9:    <tr>
+    10:       <th><%= item.text %></th>     
+    11:       <th><%= item.link %></th>
+    12:    </tr>
+    13:    <% end %>
+    14: </tbody>
+  
+app/views/parallel/home.html.erb:11:in `block in _app_views_parallel_home_html_erb__3394456986629079752_69971764158860'
+app/views/parallel/home.html.erb:8:in `_app_views_parallel_home_html_erb__3394456986629079752_69971764158860'
+app/controllers/parallel_controller.rb:25:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:55:27 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 2344ms (Views: 39.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:58:28 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 3244ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:58:50 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 2243ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/CAIiEBVSf2xMA1HoWCkG4E83PH0qGAgEKg8IACoHCAowjtSUCjC30XQwzqe5AQ" for 127.0.0.1 at 2018-08-31 20:59:00 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/articles/CAIiEBVSf2xMA1HoWCkG4E83PH0qGAgEKg8IACoHCAowjtSUCjC30XQwzqe5AQ"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 20:59:32 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 2267ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 21:00:05 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 2242ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 21:00:36 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 2348ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 21:01:39 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 2384ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-31 21:36:23 +0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (29.4ms)
+Completed 200 OK in 549ms (Views: 538.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/solution1" for 127.0.0.1 at 2018-08-31 21:36:57 +0700
+Processing by HomeController#solution1 as HTML
+  Rendering home/solution1.html.erb within layouts/application
+  Rendered home/solution1.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 229ms (Views: 84.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-31 21:37:06 +0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (40.9ms)
+Completed 200 OK in 106ms (Views: 102.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-31 21:41:24 +0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 88ms (Views: 83.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 21:44:09 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (7.2ms)
+Completed 500 Internal Server Error in 4736ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `img' for #<Nokogiri::XML::Element:0x00007fc368ad35f8>):
+     9:    <tr>
+    10:       <th><a href="https://news.google.com/<%= item["href"] %>" > <%= item.text %> </a></th>     
+    11:       <br />
+    12:       <div style="{float: right}"><%= item.img %></div>
+    13:    </tr>
+    14:    <% end %>
+    15: </tbody>
+  
+app/views/parallel/home.html.erb:12:in `block in _app_views_parallel_home_html_erb__3646649353461957406_70238626317680'
+app/views/parallel/home.html.erb:8:in `_app_views_parallel_home_html_erb__3646649353461957406_70238626317680'
+app/controllers/parallel_controller.rb:25:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 21:44:48 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 3747ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 22:03:37 +0700
+Processing by ParallelController#parallelrate as HTML
+Completed 500 Internal Server Error in 4372ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/parallel_controller.rb:17:in `[]'
+app/controllers/parallel_controller.rb:17:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 22:04:11 +0700
+Processing by ParallelController#parallelrate as HTML
+Completed 500 Internal Server Error in 3649ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/parallel_controller.rb:17:in `[]'
+app/controllers/parallel_controller.rb:17:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 22:07:05 +0700
+Processing by ParallelController#parallelrate as HTML
+Completed 500 Internal Server Error in 4808ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/parallel_controller.rb:18:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 22:08:17 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 10206ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Integer):
+     7:   <tbody>
+     8:    <% @item.each do |item|%> 
+     9:    <tr>
+    10:       <th><a href="https://news.google.com/<%= item["href"] %>" > <%= item.text %> </a></th>     
+    11:       <br />
+    12:       
+    13:    </tr>
+  
+app/views/parallel/home.html.erb:10:in `[]'
+app/views/parallel/home.html.erb:10:in `block in _app_views_parallel_home_html_erb__3646649353461957406_70238321260560'
+app/views/parallel/home.html.erb:8:in `each'
+app/views/parallel/home.html.erb:8:in `_app_views_parallel_home_html_erb__3646649353461957406_70238321260560'
+app/controllers/parallel_controller.rb:31:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 22:10:12 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 4123ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+     7:   <tbody>
+     8:    <% @item.each do |item|%> 
+     9:    <tr>
+    10:       <th><a href="https://news.google.com/<%= item[1]["href"] %>" > <%= item[0].text %> </a></th>     
+    11:       <br />
+    12:       
+    13:    </tr>
+  
+app/views/parallel/home.html.erb:10:in `block in _app_views_parallel_home_html_erb__3646649353461957406_70238653429360'
+app/views/parallel/home.html.erb:8:in `each'
+app/views/parallel/home.html.erb:8:in `_app_views_parallel_home_html_erb__3646649353461957406_70238653429360'
+app/controllers/parallel_controller.rb:31:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 22:12:33 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 4010ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/mnt/g/WAE/methods-of-mvc/ps1/app/views/parallel/home.html.erb:11: syntax error, unexpected $undefined, expecting ']'
+...eze;@output_buffer.append=( x[\"href\"] );@output_buffer.saf...
+...                              ^
+/mnt/g/WAE/methods-of-mvc/ps1/app/views/parallel/home.html.erb:11: unknown regexp options - th
+/mnt/g/WAE/methods-of-mvc/ps1/app/views/parallel/home.html.erb:12: syntax error, unexpected '<'
+      <br />
+      ^
+/mnt/g/WAE/methods-of-mvc/ps1/app/views/parallel/home.html.erb:14: unknown regexp options - tr
+/mnt/g/WAE/methods-of-mvc/ps1/app/views/parallel/home.html.erb:18: unknown regexp options - dv
+/mnt/g/WAE/methods-of-mvc/ps1/app/views/parallel/home.html.erb:20: syntax error, unexpected '<'
+<!-- <p class="left"><a href="...
+^
+/mnt/g/WAE/methods-of-mvc/ps1/app/views/parallel/home.html.erb:20: syntax error, unexpected '<'
+<!-- <p class="left"><a href="bdcra...
+     ^
+/mnt/g/WAE/methods-of-mvc/ps1/app/views/parallel/home.html.erb:20: syntax error, unexpected '<'
+<!-- <p class="left"><a href="bdcrate">BDC Rates</a...
+                     ^
+/mnt/g/WAE/methods-of-mvc/ps1/app/views/parallel/home.html.erb:20: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+...ft"><a href="bdcrate">BDC Rates</a></p>  -->
+...                          ^~~~~
+/mnt/g/WAE/methods-of-mvc/ps1/app/views/parallel/home.html.erb:20: unknown regexp option - p
+/mnt/g/WAE/methods-of-mvc/ps1/app/views/parallel/home.html.erb:20: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+...bdcrate">BDC Rates</a></p>  -->
+...                               ^
+/mnt/g/WAE/methods-of-mvc/ps1/app/views/parallel/home.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+<p class="source">Scraped from <a target="_blank" href="htt...
+                          ^~~~
+/mnt/g/WAE/methods-of-mvc/ps1/app/views/parallel/home.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+..."source">Scraped from <a target="_blank" href="http://abokif...
+...                         ^~~~~~
+/mnt/g/WAE/methods-of-mvc/ps1/app/views/parallel/home.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ed from <a target="_blank" href="http://abokifx.com">abokifx...
+...                           ^~~~
+/mnt/g/WAE/methods-of-mvc/ps1/app/views/parallel/home.html.erb:21: unknown regexp option - p
+/mnt/g/WAE/methods-of-mvc/ps1/app/views/parallel/home.html.erb:25: unterminated string meets end of file
+          end
+             ^
+/mnt/g/WAE/methods-of-mvc/ps1/app/views/parallel/home.html.erb:25: syntax error, unexpected end-of-input, expecting ')'
+          end
+             ^):
+  
+app/views/parallel/home.html.erb:11: syntax error, unexpected $undefined, expecting ']'
+app/views/parallel/home.html.erb:11: unknown regexp options - th
+app/views/parallel/home.html.erb:12: syntax error, unexpected '<'
+app/views/parallel/home.html.erb:14: unknown regexp options - tr
+app/views/parallel/home.html.erb:18: unknown regexp options - dv
+app/views/parallel/home.html.erb:20: syntax error, unexpected '<'
+app/views/parallel/home.html.erb:20: syntax error, unexpected '<'
+app/views/parallel/home.html.erb:20: syntax error, unexpected '<'
+app/views/parallel/home.html.erb:20: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+app/views/parallel/home.html.erb:20: unknown regexp option - p
+app/views/parallel/home.html.erb:20: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/parallel/home.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+app/views/parallel/home.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+app/views/parallel/home.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/parallel/home.html.erb:21: unknown regexp option - p
+app/views/parallel/home.html.erb:25: unterminated string meets end of file
+app/views/parallel/home.html.erb:25: syntax error, unexpected end-of-input, expecting ')'
+app/controllers/parallel_controller.rb:31:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 22:12:51 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (29.8ms)
+Completed 500 Internal Server Error in 3185ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+     8:    <% @item.each do |item|%> 
+     9:    <tr>
+    10:       <%= x = item[1] %>
+    11:       <th><a href="https://news.google.com/<%= x["href"] %>" > <%= item[0].text %> </a></th>     
+    12:       <br />
+    13:       
+    14:    </tr>
+  
+app/views/parallel/home.html.erb:11:in `block in _app_views_parallel_home_html_erb__3646649353461957406_70238322368220'
+app/views/parallel/home.html.erb:8:in `each'
+app/views/parallel/home.html.erb:8:in `_app_views_parallel_home_html_erb__3646649353461957406_70238322368220'
+app/controllers/parallel_controller.rb:31:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 22:14:06 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (1842.4ms)
+Completed 500 Internal Server Error in 4979ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `a' for #<#<Class:0x00007fc344782e68>:0x00007fc36b1c9b08>):
+     8:    <% @item.each do |item|%> 
+     9:    <tr>
+    10:       
+    11:       <th><a href="https://news.google.com/<%= item[a]["href"] %>" > <%= item[0].text %> </a></th>     
+    12:       <br />
+    13:       
+    14:    </tr>
+  
+app/views/parallel/home.html.erb:11:in `block in _app_views_parallel_home_html_erb__3646649353461957406_70238646190520'
+app/views/parallel/home.html.erb:8:in `each'
+app/views/parallel/home.html.erb:8:in `_app_views_parallel_home_html_erb__3646649353461957406_70238646190520'
+app/controllers/parallel_controller.rb:31:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 22:14:43 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (1880.1ms)
+Completed 500 Internal Server Error in 10448ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `a' for #<#<Class:0x00007fc3681ae428>:0x00007fc3681ac6f0>):
+     8:    <% @item.each do |item|%> 
+     9:    <tr>
+    10:       
+    11:       <th><a href="https://news.google.com/<%= item[a]["href"] %>" > <%= item[0].text %> </a></th>     
+    12:       <br />
+    13:       
+    14:    </tr>
+  
+app/views/parallel/home.html.erb:11:in `block in _app_views_parallel_home_html_erb__3646649353461957406_70238620940300'
+app/views/parallel/home.html.erb:8:in `each'
+app/views/parallel/home.html.erb:8:in `_app_views_parallel_home_html_erb__3646649353461957406_70238620940300'
+app/controllers/parallel_controller.rb:32:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 22:15:46 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 3816ms (Views: 83.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 22:20:33 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 3892ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+     9:    <tr>
+    10:       <th><a href="https://news.google.com/<%= item["href"] %>" > <%= item.text %> </a></th>     
+    11:       <br />
+    12:       <img src="<%= img["src"] %>">
+    13:    </tr>
+    14:    <% end %>
+    15: </tbody>
+  
+app/views/parallel/home.html.erb:12:in `block in _app_views_parallel_home_html_erb__3646649353461957406_70368219521940'
+app/views/parallel/home.html.erb:8:in `zip'
+app/views/parallel/home.html.erb:8:in `_app_views_parallel_home_html_erb__3646649353461957406_70368219521940'
+app/controllers/parallel_controller.rb:26:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 22:22:29 +0700
+  
+SyntaxError (/mnt/g/WAE/methods-of-mvc/ps1/app/controllers/parallel_controller.rb:21: syntax error, unexpected '[', expecting '('
+...      @formattedrate = img[1].["src"]
+...                              ^
+/mnt/g/WAE/methods-of-mvc/ps1/app/controllers/parallel_controller.rb:21: syntax error, unexpected ']', expecting keyword_end
+...@formattedrate = img[1].["src"]
+...                              ^):
+  
+app/controllers/parallel_controller.rb:21: syntax error, unexpected '[', expecting '('
+app/controllers/parallel_controller.rb:21: syntax error, unexpected ']', expecting keyword_end
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 22:22:54 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 4068ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+     9:    <tr>
+    10:       <th><a href="https://news.google.com/<%= item["href"] %>" > <%= item.text %> </a></th>     
+    11:       <br />
+    12:       <!-- <img src="<%= img["src"] %>"> -->
+    13:    </tr>
+    14:    <% end %>
+    15: </tbody>
+  
+app/views/parallel/home.html.erb:12:in `block in _app_views_parallel_home_html_erb__3646649353461957406_70238728770060'
+app/views/parallel/home.html.erb:8:in `zip'
+app/views/parallel/home.html.erb:8:in `_app_views_parallel_home_html_erb__3646649353461957406_70238728770060'
+app/controllers/parallel_controller.rb:26:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 22:23:15 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 3194ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 22:23:57 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 2755ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+     9:    <tr>
+    10:       <th><a href="https://news.google.com/<%= item["href"] %>" > <%= item.text %> </a></th>     
+    11:       <br />
+    12:      <img src="<%= img[0]["src"] %>">
+    13:    </tr>
+    14:    <% end %>
+    15: </tbody>
+  
+app/views/parallel/home.html.erb:12:in `block in _app_views_parallel_home_html_erb__3646649353461957406_70238743401960'
+app/views/parallel/home.html.erb:8:in `zip'
+app/views/parallel/home.html.erb:8:in `_app_views_parallel_home_html_erb__3646649353461957406_70238743401960'
+app/controllers/parallel_controller.rb:26:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 22:29:37 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 4536ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+     9:    <tr>
+    10:       <th><a href="https://news.google.com/<%= item["href"] %>" > <%= item.text %> </a></th>     
+    11:       <br />
+    12:      <img src="<%= images["src"] %>">
+    13:    </tr>
+    14:    <% end %>
+    15: </tbody>
+  
+app/views/parallel/home.html.erb:12:in `block in _app_views_parallel_home_html_erb__3646649353461957406_70238736327180'
+app/views/parallel/home.html.erb:8:in `zip'
+app/views/parallel/home.html.erb:8:in `_app_views_parallel_home_html_erb__3646649353461957406_70238736327180'
+app/controllers/parallel_controller.rb:26:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 22:30:12 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 2997ms (Views: 62.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 22:30:49 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 5231ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 22:31:36 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 4888ms (Views: 49.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 22:31:49 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 4185ms (Views: 63.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 22:38:36 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 3316ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `img' for #<Nokogiri::XML::Element:0x00007fc3798e2968>):
+     9:    <tr>
+    10:       <th><a href="https://news.google.com/<%= item["href"] %>" > <%= item.text %> </a></th>     
+    11:       <br />
+    12:      <img src="<%= item.img["src"] %>">
+    13:    </tr>
+    14:    <% end %>
+    15: </tbody>
+  
+app/views/parallel/home.html.erb:12:in `block in _app_views_parallel_home_html_erb__3646649353461957406_70238768666240'
+app/views/parallel/home.html.erb:8:in `zip'
+app/views/parallel/home.html.erb:8:in `_app_views_parallel_home_html_erb__3646649353461957406_70238768666240'
+app/controllers/parallel_controller.rb:26:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 22:39:01 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 4840ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+     9:    <tr>
+    10:       <th><a href="https://news.google.com/<%= item["href"] %>" > <%= item.text %> </a></th>     
+    11:       <br />
+    12:      <img src="<%= item["img"]["src"] %>">
+    13:    </tr>
+    14:    <% end %>
+    15: </tbody>
+  
+app/views/parallel/home.html.erb:12:in `block in _app_views_parallel_home_html_erb__3646649353461957406_70238623529780'
+app/views/parallel/home.html.erb:8:in `zip'
+app/views/parallel/home.html.erb:8:in `_app_views_parallel_home_html_erb__3646649353461957406_70238623529780'
+app/controllers/parallel_controller.rb:26:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 22:40:29 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 3654ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+     9:    <tr>
+    10:       <th><a href="https://news.google.com/<%= item["href"] %>" > <%= item.text %> </a></th>     
+    11:       <br />
+    12:      <img src="<%= images["src"] %>">
+    13:    </tr>
+    14:    <% end %>
+    15: </tbody>
+  
+app/views/parallel/home.html.erb:12:in `block in _app_views_parallel_home_html_erb__3646649353461957406_70238821451220'
+app/views/parallel/home.html.erb:8:in `zip'
+app/views/parallel/home.html.erb:8:in `_app_views_parallel_home_html_erb__3646649353461957406_70238821451220'
+app/controllers/parallel_controller.rb:26:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 22:42:13 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 2819ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+     9:    <tr>
+    10:       <th><a href="https://news.google.com/<%= item["href"] %>" > <%= item.text %> </a></th>     
+    11:       <br />
+    12:      <img src="<%= images["src"] %>">
+    13:    </tr>
+    14:    <% end %>
+    15: </tbody>
+  
+app/views/parallel/home.html.erb:12:in `block in _app_views_parallel_home_html_erb__3646649353461957406_70238620628240'
+app/views/parallel/home.html.erb:8:in `zip'
+app/views/parallel/home.html.erb:8:in `_app_views_parallel_home_html_erb__3646649353461957406_70238620628240'
+app/controllers/parallel_controller.rb:26:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 22:46:16 +0700
+Processing by ParallelController#parallelrate as HTML
+Completed 500 Internal Server Error in 6050ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/parallel_controller.rb:17:in `[]'
+app/controllers/parallel_controller.rb:17:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 22:50:00 +0700
+  
+SyntaxError (/mnt/g/WAE/methods-of-mvc/ps1/app/controllers/parallel_controller.rb:24: syntax error, unexpected '<', expecting keyword_end
+        <% (1..x).each do |i| %>
+        ^
+/mnt/g/WAE/methods-of-mvc/ps1/app/controllers/parallel_controller.rb:24: syntax error, unexpected keyword_do_block, expecting keyword_end
+        <% (1..x).each do |i| %>
+                       ^~):
+  
+app/controllers/parallel_controller.rb:24: syntax error, unexpected '<', expecting keyword_end
+app/controllers/parallel_controller.rb:24: syntax error, unexpected keyword_do_block, expecting keyword_end
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 22:51:58 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (6.1ms)
+Completed 500 Internal Server Error in 4511ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+     9:    <tr>
+    10:       <th><a href="https://news.google.com/<%= item["href"] %>" > <%= item.text %> </a></th>     
+    11:       <br />
+    12:      <img src="<%= images["src"] %>">
+    13:    </tr>
+    14:    <% end %>
+    15: </tbody>
+  
+app/views/parallel/home.html.erb:12:in `block in _app_views_parallel_home_html_erb__3646649353461957406_70368223764960'
+app/views/parallel/home.html.erb:8:in `zip'
+app/views/parallel/home.html.erb:8:in `_app_views_parallel_home_html_erb__3646649353461957406_70368223764960'
+app/controllers/parallel_controller.rb:26:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 22:53:01 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 4632ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+     9:    <tr>
+    10:       <th><a href="https://news.google.com/<%= item["href"] %>" > <%= item.text %> </a></th>     
+    11:       <br />
+    12:      <!-- <img src="<%= images["src"] %>">  -->
+    13:    </tr>
+    14:    <% end %>
+    15: </tbody>
+  
+app/views/parallel/home.html.erb:12:in `block in _app_views_parallel_home_html_erb__3646649353461957406_70368216782540'
+app/views/parallel/home.html.erb:8:in `zip'
+app/views/parallel/home.html.erb:8:in `_app_views_parallel_home_html_erb__3646649353461957406_70368216782540'
+app/controllers/parallel_controller.rb:26:in `parallelrate'
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 22:53:18 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 3317ms (Views: 38.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 22:54:57 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 3146ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-31 22:55:30 +0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 45ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-31 23:02:53 +0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 243ms (Views: 237.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/solutions" for 127.0.0.1 at 2018-08-31 23:02:55 +0700
+  
+AbstractController::ActionNotFound (The action 'solutions' could not be found for HomeController):
+  
+actionpack (5.2.1) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/home/solutions" for 127.0.0.1 at 2018-08-31 23:03:18 +0700
+Started GET "/" for 127.0.0.1 at 2018-08-31 23:03:28 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/home/solutions"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 40ms (Views: 38.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/solutions" for 127.0.0.1 at 2018-08-31 23:03:30 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/home/solutions"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-08-31 23:03:54 +0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 118ms (Views: 113.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/extractor/index" for 127.0.0.1 at 2018-08-31 23:03:56 +0700
+Processing by ExtractorController#index as HTML
+  Rendering extractor/index.html.erb within layouts/application
+  Rendered extractor/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 48ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 23:03:58 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 4141ms (Views: 73.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-31 23:04:30 +0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 94ms (Views: 88.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/extractor/index" for 127.0.0.1 at 2018-08-31 23:04:32 +0700
+Processing by ExtractorController#index as HTML
+  Rendering extractor/index.html.erb within layouts/application
+  Rendered extractor/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 37ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 23:04:34 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 3544ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-31 23:05:43 +0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 60ms (Views: 56.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/extractor/index" for 127.0.0.1 at 2018-08-31 23:05:45 +0700
+Processing by ExtractorController#index as HTML
+  Rendering extractor/index.html.erb within layouts/application
+  Rendered extractor/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 42ms (Views: 39.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parallel" for 127.0.0.1 at 2018-08-31 23:05:47 +0700
+Processing by ParallelController#parallelrate as HTML
+  Rendering parallel/home.html.erb within layouts/application
+  Rendered parallel/home.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 4566ms (Views: 76.6ms | ActiveRecord: 0.0ms)
+
+

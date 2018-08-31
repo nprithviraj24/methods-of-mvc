@@ -1,0 +1,21 @@
+<div class="entry">
+  <h3 class="h3">Google Headlines</h3>
+  <div class="outer">
+ <!-- <p><span id="dollar"> <img src="<%= @formattedrate %>"></span></p>  --> 
+  </div>
+
+  <tbody style="{float: left}">
+   <% @item.zip(@image) do |item, image|%>
+   <tr>
+      <th><a href="https://news.google.com/<%= item["href"] %>" > <%= item.text %> </a></th>     
+      <br />
+     
+   </tr>
+   <% end %>
+</tbody>
+
+
+</div>
+
+<!-- <p class="left"><a href="bdcrate">BDC Rates</a></p>  -->
+<p class="source">Scraped from <a target="_blank" href="http://abokifx.com">abokifx.com</a></p>
