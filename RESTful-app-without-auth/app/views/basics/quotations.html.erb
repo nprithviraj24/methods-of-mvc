@@ -1,0 +1,170 @@
+<!--This script part is deprecated, here for just a reference
+<script>
+ 
+function myFunction() {
+  var input, filter, table, tr, td, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  
+  ul = document.getElementById("q");
+  li = ul.getElementsByTagName('li');
+  
+  for (i = 0; i < li.length; i++) {
+    
+      a = li[i].getElementsByTagName("div")[0];
+      if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {      
+          li[i].style.display = "";
+      } else {
+          li[i].style.display = "none";
+      }
+  }
+}
+</script>
+ -->
+
+ <div class="container">
+  <div class="jumbotron">
+    <h3>Quotations</h3>
+
+<!-- <button align="left" ><a href="#" style="text-decoration: none"> Erase my personalisation</a></button> -->
+
+
+<!-- <div align="right">
+#Search: <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+</div> -->
+
+<div align="right">
+<%= form_tag("/basics/search",  method: "get") do %>
+  <%= text_field_tag :quote %>
+  &nbsp;&nbsp;
+  <%= submit_tag 'Search' , name: nil%>
+<% end %>
+</div>
+<br />
+<ul id="q">
+  <% for quotation in @quotations %>
+    <li><%= quotation.author_name %>: <%= quotation.quote %>&nbsp;&nbsp;&nbsp;&nbsp;<a style="font-size:20px" href="/basics/quotations/<%= quotation.id%>">&times;</a></li>
+  <% end %>
+</ul>
+<div style="margin-bottom:-2em" align="right">
+<% if !cookies[:key].nil? %>
+  <a href="/basics/erase" class="btn btn-outline-warning" style="text-decoration: none; color: #000000">Erase my personalisation</a>
+<% end %>
+</div>
+</div>
+
+<br/>
+<div class="container">
+<div class="row">
+<div class = "col-sm">
+<% if params[:sort_by] == "date" %>
+  <%= link_to "Sort by category", :action => :quotations, :sort_by => :category %>
+<% else %>
+  <%= link_to "Sort by date", :action => :quotations, :sort_by => :date %>
+<% end %>
+</div>
+<div class = "col-sm">
+<div align="right">
+<a class="btn btn-outline-info" style="text-decoration: none, color: inherit;" href="/basics/quotations">Refresh</a>
+</div>
+</div>
+</div>
+</div>
+
+<hr/>
+
+</div>
+<!--
+# <div class="container">
+#   <h4>New quotation</h4>
+#   <br />
+#   <br />
+#   <%= form_for @quotation, :url => { :action => :quotations } do |form| %>
+#   <%= form.error_messages %>
+  
+#   <div  style="padding-left:5em" class="form-group">
+#     <div class="row">
+#       <div class = "col-sm">
+#         <%= form.label :author_name %>
+#       </div>
+#       <div class = "col-sm">
+#         <%= form.text_field :author_name, :size => 20, :maxlength => 40%>
+#       </div>
+#     </div>
+#     <br />
+#     <div  style="padding-left:5em" class="form-group">
+#       <div class="row">
+#         <div class = "col-sm">
+#           Category
+#         </div>
+#         <div class = "col-sm">
+#           <%= form.collection_select :category, @categories, :category, :category, prompt: true %>
+#         </div>    
+#       </div>
+#     <br />
+    
+#     <div  style="padding-left:5em" class="form-group">
+#       <div class="row">    
+#         <div class = "col-sm">
+#           <%= form.text_field :new_category, placeholder: "  New category...", :size => 20, :maxlength => 40 %>
+#         </div>
+#       </div>
+#     </div>
+
+#     <br />
+#     <div  style="padding-left:5em" class="form-group">
+#       <div class="row">
+#         <div class = "col-sm">
+#           <%= form.label :quote %>
+#         </div>
+#         <div class = "col-sm">
+#           <%= form.text_area :quote, :rows => 2, :cols => 40, :maxlength => 500 %>
+#         </div>
+#       </div>
+#     </div>
+
+#   <p>
+#   <div style="float:right">
+#     <%= form.submit 'Create' %>
+#   </div>
+#   </p>
+# <% end %>
+# </div>
+-->
+<div align="right"  class="container">
+<button type="button" class="btn btn-outline-success" data-toggle="collapse" data-target="#form"> <h6>New Quote?</h6></button>
+<div id="form" class="collapse">
+  <%= form_for @quotation, :url => { :action => :quotations } do |form| %>
+  <%= form.error_messages %>
+  <table class="table">
+  <tbody>
+  <tr>  
+     <td>  <%= form.label :author_name %></td>
+     <td> <%= form.text_field :author_name, :size => 30, :maxlength => 40%> </td>
+     </tr>
+    <br />
+    <tr>  
+     <td>Category</td>        
+     <td><%= form.collection_select :category, @categories, :category, :category, prompt: true %></td>
+    </tr>
+    <br />
+    <tr>  
+     <td>New Category? </td>
+     <td><%= form.text_field :new_category, placeholder: " Enter the unique category..", :size => 30, :maxlength => 40 %></td>
+    </tr>
+
+    <br />
+    <tr>
+    <td><%= form.label :quote %></td>
+    <td><%= form.text_area :quote, :rows => 2, :cols => 40, :maxlength => 500 %></td>
+    </tr>
+    </tbody>
+</table>
+  <p>
+  <div style="float:right">
+    <%= form.submit 'Create' %>
+  </div>
+  </p>
+<% end %>
+</div>
+</div>
