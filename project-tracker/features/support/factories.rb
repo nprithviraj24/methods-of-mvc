@@ -1,4 +1,4 @@
-FactoryBot.define do
+FactoryBt.define do
     factory :teacher, class: Teacher do
     email "joe_teacher@ait.asia"
     password "password"
