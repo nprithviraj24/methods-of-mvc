@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @account.name %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @account.url %>
+</p>
+
+<%= link_to 'Edit', edit_project_path(@project) %> |
+<%= link_to 'Back', projects_path %>
+
+<h2>Users</h2>
+<table>
+<thead>
+<tr>
+<th>User ID</th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<% @account.students.each do |student| %>
+<tr>
+<td><%= student.id %></td>
+<td><%= student.name %></td>
+</tr>
+<% end %>
+</tbody>
+</table>
+<br/>
+<h2>Add an account:</h2>
+<%= form_for([@account, @project.students.build]) do |f| %>
+<div class="field">
+<%= f.label :id %>
+<br/>
+<%= f.text_field :id %>
+</div>
+<div class="field">
+<%= f.label :name %>
+<br/>
+<%= f.text_field :name %>
+</div>
+<div class="actions">
+<%= f.submit %>
+</div>
+<% end %>
