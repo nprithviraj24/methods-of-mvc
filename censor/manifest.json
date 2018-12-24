@@ -1,0 +1,30 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icons/black-icon-32.png",
+      "----default_popup": "----popup.html",
+      "a comment": "Censor all swearWord"
+   },
+   "content_scripts": [ {
+      "js": [ "swearWord-censor.js", "swearWord-censor-comms.js" ],
+      "matches": [ "*://*/*" ]
+   } ],
+   "description": "Redacts all swearWord characters on a page, replacing them with black boxes",
+   "icons": {
+      "128": "icons/black-icon-128.png",
+      "16": "icons/black-icon-16.png",
+      "256": "icons/black-icon-256.png",
+      "32": "icons/black-icon-32.png",
+      "64": "icons/black-icon-64.png"
+   },
+   "manifest_version": 2,
+   "name": "Censor",
+   "permissions": [ 
+        "http://localhost:3000/*",
+        "*://*/*" 
+    ],
+   "version": "1.1.1"
+}
